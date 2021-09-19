@@ -27,12 +27,12 @@ Robin, who loves astronomy and wants to work for NASA one day, decided to use a 
 #### Deliverable 1: 
 Using BeautifulSoup and Splinter, Robin scraped full-resolution images of Mars’s hemispheres and the titles of those images. The deliverable included the following steps:
 
-Step 1: Used browser to visit the Mars Hemispheres website to view the hemisphere images. Used the DevTools to inspect the page for the proper elements to scrape. Retrieved the full-resolution image for each of Mars's hemispheres.
-Step 2: Created a list to hold the .jpg image URL string and title for each hemisphere image.
-Step 3: Wrote code to retrieve the full-resolution image URL and title for each hemisphere image. The full-resolution image has the .jpg extension. Looped through the full-resolution image URL, clicked the link, found the Sample image anchor tag, and got the href. Saved the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary that was created from the Hint.
+- Step 1: Used browser to visit the Mars Hemispheres website to view the hemisphere images. Used the DevTools to inspect the page for the proper elements to scrape. Retrieved the full-resolution image for each of Mars's hemispheres.
+- Step 2: Created a list to hold the .jpg image URL string and title for each hemisphere image.
+- Step 3: Wrote code to retrieve the full-resolution image URL and title for each hemisphere image. The full-resolution image has the .jpg extension. Looped through the full-resolution image URL, clicked the link, found the Sample image anchor tag, and got the href. Saved the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary that was created from the Hint.
 Saved the hemisphere image title as the value for the title key that will be stored in the dictionary created from the Hint. Before getting the next image URL and title, added the dictionary with the image URL string and the hemisphere image title to the list created in Step 2.
-Step 4: Printed the list of dictionary items. 
-Setp 5: Confirmed that you have the image URLs and titles for all four hemisphere images and quit the browser.
+- Step 4: Printed the list of dictionary items. 
+- Setp 5: Confirmed that you have the image URLs and titles for all four hemisphere images and quit the browser.
 
 #### Deliverable 2: 
 Using her Python and HTML skills, Robin added the code created in Deliverable 1 to her scraping.py file, updated the Mongo database, and modified the index.html file so the webpage contains all the information you collected in this module as well as the full-resolution image and title for each hemisphere image.Update the Web App with Mars Hemisphere Images and Titles.
