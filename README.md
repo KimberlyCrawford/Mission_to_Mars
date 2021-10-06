@@ -43,7 +43,7 @@ Robin scraped full-resolution images of Mars’s hemispheres and the titles of t
 
 - Setp 5: Confirmed retrieval of the image URLs and titles for all four hemisphere images and quit the browser.
 
-![List_of_scraped.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/List_of_scraped.png)
+![List_of_scraped.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/List_of_scraped.png)
 
 
 #### Deliverable 2: 
