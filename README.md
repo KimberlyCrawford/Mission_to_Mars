@@ -30,20 +30,20 @@ Robin, who loves astronomy and wants to work for NASA one day, decided to use a 
 Robin scraped full-resolution images of Mars’s hemispheres and the titles of those images. The deliverable included the following steps:
 
 - Step 1: Used browser to visit the Mars Hemispheres website to view the hemisphere images. Used the Chrome DevTools to inspect the page for the proper elements to scrape. Retrieved the full-resolution image for each of Mars's hemispheres.
-![D1_DevTools.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/D1_DevTools.png)
+
+![D1_DevTools.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/D1_DevTools.png)
 
 - Step 2: Created a list to hold the .jpg image URL string and title for each hemisphere image.
-![D1_MechaCar_mpg_dataframe.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/D1_MechaCar_mpg_dataframe.png)
 
-- START HERE Step 3: Wrote code to retrieve the full-resolution image URL and title for each hemisphere image. The full-resolution image has the .jpg extension. Looped through the full-resolution image URL, clicked the link, found the Sample image anchor tag, and got the href. Saved the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary that was created from the Hint.
-Saved the hemisphere image title as the value for the title key that will be stored in the dictionary created from the Hint. Before getting the next image URL and title, added the dictionary with the image URL string and the hemisphere image title to the list created in Step 2.
-![D1_MechaCar_mpg_dataframe.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/D1_MechaCar_mpg_dataframe.png)
+![Empty_list.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Empty_list.png)
+
+- Step 3: Wrote code to retrieve the full-resolution image URL and title for each hemisphere image. Looped through the full-resolution image URL, clicked the link, found the Sample image anchor tag, and got the href. Saved the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary that was created. Saved the hemisphere image title as the value for the title key that was stored in the dictionary. Before getting the next image URL and title, added the dictionary with the image URL string and the hemisphere image title to the list created.
 
 - Step 4: Printed the list of dictionary items. 
-![D1_MechaCar_mpg_dataframe.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/D1_MechaCar_mpg_dataframe.png)
 
-- Setp 5: Confirmed that you have the image URLs and titles for all four hemisphere images and quit the browser.
-![D1_MechaCar_mpg_dataframe.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/D1_MechaCar_mpg_dataframe.png)
+- Setp 5: Confirmed retrieval of the image URLs and titles for all four hemisphere images and quit the browser.
+
+![List_of_scraped.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/List_of_scraped.png)
 
 
 #### Deliverable 2: 
