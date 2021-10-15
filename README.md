@@ -48,8 +48,8 @@ Robin scraped full-resolution images of Mars’s hemispheres and the titles of t
 
 #### Deliverable 2: 
 Robin added the code created in Deliverable 1 to her scraping.py file, updated the Mongo database, and modified the index.html file so the webpage contains all the information you collected in this module as well as the full-resolution image and title for each hemisphere image.Update the Web App with Mars Hemisphere Images and Titles.
-![D1_MechaCar_mpg_dataframe.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/D1_MechaCar_mpg_dataframe.png)
+![File.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/File.png)
 
 #### Deliverable 3: 
 Using Bootstrap 3 components, Robin updated the web app to make it mobile-responsive and added two additional Bootstrap 3 components to make it stand out.
-![D1_MechaCar_mpg_dataframe.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/D1_MechaCar_mpg_dataframe.png)
+![File.png](https://github.com/KimberlyCrawford/Mission_to_Mars/blob/main/Resources/Images/File.png)
