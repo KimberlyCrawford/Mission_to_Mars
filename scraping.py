@@ -11,6 +11,7 @@ def scrape_all():
     browser = Browser('chrome', **executable_path, headless=False)
 
     news_title, news_paragraph = mars_news(browser)
+    img_urls_titles = hemispheres(browser)
 
     # Run all scraping functions and store results in a dictionary
     data = {
@@ -18,7 +19,8 @@ def scrape_all():
         "news_paragraph": news_paragraph,
         "featured_image": featured_image(browser),
         "facts": mars_facts(),
-        "last_modified": dt.datetime.now()
+        "last_modified": dt.datetime.now(),
+        "hemispheres": img_urls_titles,
     }
 
     # Stop webdriver and return data
@@ -49,13 +51,13 @@ def mars_news(browser):
         news_title = slide_elem.find('div', class_='content_title').get_text()
         news_title
         # Use the parent element to find the paragraph text
-        news_p = slide_elem.find('div', class_='article_teaser_body').get_text()
-        news_p
+        news_paragraph = slide_elem.find('div', class_='article_teaser_body').get_text()
+        news_paragraph
 
     except AttributeError:
         return None, None
 
-    return news_title, news_p
+    return news_title, news_paragraph
 
 
 def featured_image(browser):
@@ -107,6 +109,8 @@ def mars_facts():
 
 # ### Steps 1-3
 def hemispheres(browser):
+### Steps 1-3
+
 # 1. Use browser to visit the Mars Hemispheres website to view the hemisphere images. 
     url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
     browser.visit(url)
@@ -135,6 +139,7 @@ def hemispheres(browser):
     # Navigate Backwards
     browser.back()
 
+    # Print the list that holds the dictionary of each image url and title.
     return hemispheres_info
 
 if __name__ == "__main__":

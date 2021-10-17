@@ -104,12 +104,10 @@ for item in range(len(links)):
     # Navigate Backwards
     browser.back()
 
+# Quit the browser
+browser.quit()
+
 ### Step 4: Print the list that holds the dictionary of each image url and title.
 
 # Print the list that holds the dictionary of each image url and title.
 hemispheres_info
-
-### Step 5: Quit the Browser.
-
-# Quit the browser
-browser.quit()
